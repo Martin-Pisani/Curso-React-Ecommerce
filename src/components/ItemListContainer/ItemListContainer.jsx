@@ -11,6 +11,7 @@ const ItemCount = () => {
             //count ++
             // console.log(count)
             setearContador(contador + 1)
+            
         }
     
     const hanldeBool = ( ) => setBooleano(!booleano)
@@ -73,7 +74,7 @@ const ItemListContainer = ({ saludo }) => {
         {/* [1,2,3] -> [<p key={} >1</p>, <p>2</p>, <p>3</p>] */}
 
         { loading ? 
-            <h2>Cargando productos ...</h2> 
+            <h2>Cargando Productos en Tienda...</h2> 
                 :
             products.map( product =>    <div            
                                             style={{ marginLeft: 100}}

@@ -8,6 +8,7 @@ import reactCarrito from './assets/carrito.png'
 import reactLogo from './assets/logo.jpg'
 
 
+
 // import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
@@ -21,7 +22,7 @@ function Item () {
 //function App(props) { 
   function App() { 
   // definido en app
-    let saludo  = 'Soy Skaloneta, tu tienda online deportiva'
+    let saludo  = '¡ La Skaloneta se renueva, tu tienda online deportiva!'
     let saludar = () => alert('soy func de app') //estados
         // console.log('Rering App')
               
