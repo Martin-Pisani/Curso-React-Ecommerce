@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
-          <img className= 'w-25'src={logo}/>
+          <img className= 'w-20'src={logo}/>
           <Navbar.Brand href="#home">Ecommerce Skaloneta Shop</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
