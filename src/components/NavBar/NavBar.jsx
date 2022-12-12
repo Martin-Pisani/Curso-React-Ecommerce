@@ -1,11 +1,11 @@
+import { Link, NavLink } from 'react-router-dom'
 
-import { Link, NavLink } from  'react-router-dom'
+import Carrito from '../../assets/carrito.png'
 import logo from '../../assets/logo.jpg'
-import carrito from '../../assets/carrito.png'
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap' 
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
+import './NavBar.css'
 
-import './NavBar.css' 
 
 const NavBar = (   ) => {
   // console.log('Rendering Navbar')
@@ -38,9 +38,9 @@ const NavBar = (   ) => {
                       </NavLink>
                       <NavLink 
                           className={ ( {isActive} )=> isActive ? 'btn btn-success' : 'btn btn-outline-success'} 
-                          to="/categoria/accesorios"
+                          to="/categoria/conjuntos deportivos"
                       >
-                          Accesorios
+                          Conjuntos Deportivos 
                       </NavLink>
                       
                   </Nav>
@@ -50,8 +50,7 @@ const NavBar = (   ) => {
                           {/* <img src={carrito} alt='imagen'/> */}
                           {/* <img className='w-25' src={''} alt='imagen'/> */}
                           1
-
-                          <img className= 'w-25'src={carrito} alt='imagen'/>
+                          <img className= 'w-25'src='/assets/carrito.png' alt='imagen'/>
                       </ Link>
                   </Nav>
                   </Navbar.Collapse>

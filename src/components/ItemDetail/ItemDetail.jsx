@@ -1,7 +1,16 @@
+import { ItemCount } from "../ItemCount/ItemCount"
 
-const ItemDetail = () => {
+const ItemDetail = () => {  // intercambiabilidad
   return (
-    <div>ItemDetail</div>
+    <div className="row">
+        <div className="col">
+          Detalle
+        </div>
+    <div className="col">
+      <ItemCount />
+    </div>
+</div>
+    
   )
 }
 
