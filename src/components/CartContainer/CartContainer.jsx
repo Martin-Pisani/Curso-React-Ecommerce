@@ -1,7 +1,9 @@
 
 const CartContainer = () => {
     return (
-      <div>CartContainer</div>
+      <div>
+     <img src='/assets/carrito.png' alt='imagen'/>
+       </div>
     )
   }
   

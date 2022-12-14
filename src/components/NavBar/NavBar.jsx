@@ -1,10 +1,11 @@
 import { Link, NavLink } from 'react-router-dom'
 
-import Carrito from '../../assets/carrito.png'
+//import carrito from '../../assets/carrito.jpg'
 import logo from '../../assets/logo.jpg'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 import './NavBar.css'
+import CartWidget from '../CartWidget/CartWidget'
 
 
 const NavBar = (   ) => {
@@ -20,9 +21,9 @@ const NavBar = (   ) => {
                   <Nav className="me-auto">
                       <NavLink 
                           className={ ( {isActive} )=> isActive ? 'btn btn-success' : 'btn btn-outline-success'} 
-                          to="/categoria/camisetas"
+                          to="/categoria/camiseta"
                       >
-                              Camisetas
+                              Camiseta
                       </NavLink>
                       <NavLink 
                           className={ ( {isActive} )=> isActive ? 'btn btn-success' : 'btn btn-outline-success'} 
@@ -50,7 +51,7 @@ const NavBar = (   ) => {
                           {/* <img src={carrito} alt='imagen'/> */}
                           {/* <img className='w-25' src={''} alt='imagen'/> */}
                           1
-                          <img className= 'w-25'src='/assets/carrito.png' alt='imagen'/>
+                          <CartWidget />
                       </ Link>
                   </Nav>
                   </Navbar.Collapse>

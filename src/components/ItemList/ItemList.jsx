@@ -2,9 +2,15 @@ import Item from "../Item/Item"
 
 const ItemList = ({ products }) => {
   return (
-   
-        products.map( product =>   <Item product={product} /> )
-  
+    
+    <div style={{
+      display: 'flex',
+      flexDirection: 'row',
+      flexWrap: 'wrap'
+    }}>
+        {products.map( product =>   <Item product={product} /> )}
+
+    </div>  
   )
 }
 

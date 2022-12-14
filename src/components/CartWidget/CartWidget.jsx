@@ -1,10 +1,10 @@
 
-//const CartWidget = () => {
-//  return (
-//    <div>
-//      <img className= 'w-25'src='/assets/carrito.png' alt='imagen'/>
-//    </div>
-//  )
-//}
+const CartWidget = () => {
+ return (
+   <div>
+     <img  src='/public/vite.svg' alt='imagen'/>
+   </div>
+ )
+}
 
-//export default CartWidget
+export default CartWidget
